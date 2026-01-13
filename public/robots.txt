@@ -1,0 +1,24 @@
+# robots.txt for OneWay Recovery
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://onewayrecovery.co.uk/sitemap.xml
+
+# Crawl-delay for bots
+Crawl-delay: 1
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /api/
+
+# Allow all assets
+Allow: /src/assets/
+Allow: *.css
+Allow: *.js
+Allow: *.png
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.svg
+Allow: *.webp
