@@ -1,8 +1,8 @@
 import { ChevronRight, Phone } from "lucide-react";
 import { WhatsApp } from "./Icons";
-import heroImg from "../assets/hero-image-1.jpg";
-import heroImg2 from "../assets/hero-image-2.jpg";
-import heroImg3 from "../assets/hero-image-3.jpeg";
+import heroImg from "../assets/hero-image-5.jpg";
+import heroImg2 from "../assets/hero-image-6.jpg";
+import heroImg3 from "../assets/hero-image-7.jpg";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
@@ -22,7 +22,7 @@ export default function Hero() {
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="relative h-[500px] sm:h-[600px] md:h-[680px] lg:h-[720px] rounded-[24px] sm:rounded-[40px] lg:rounded-[80px] overflow-hidden group shadow-2xl mx-2 sm:mx-4"
+      className="relative h-125 sm:h-150 md:h-170 lg:h-180 rounded-3xl sm:rounded-[40px] lg:rounded-[80px] overflow-hidden group shadow-2xl mx-2 sm:mx-4"
     >
       {/* Background Container */}
       <div className="absolute inset-0 bg-rich-black">
@@ -33,14 +33,14 @@ export default function Hero() {
             src={img}
             alt="Professional Recovery Service"
             className={`absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-all duration-1000 ease-in-out ${
-              index === currentSlide ? "opacity-70" : "opacity-0"
+              index === currentSlide ? "opacity-100" : "opacity-0"
             }`}
           />
         ))}
 
-        {/* Dynamic Overlays - Enhanced for better readability */}
-        <div className="absolute inset-0 bg-linear-to-r from-oxford-dark/95 via-oxford-dark/70 to-oxford-dark/30" />
-        <div className="absolute inset-0 bg-linear-to-t from-oxford-dark via-oxford-dark/50 to-transparent" />
+        {/* Dynamic Overlays - Reduced for clearer image visibility */}
+        <div className="absolute inset-0 bg-linear-to-r from-oxford-dark/80 via-oxford-dark/40 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-t from-oxford-dark/70 via-oxford-dark/30 to-transparent" />
 
         {/* Subtle Grid Pattern for Premium Feel */}
         <div className="absolute inset-0 opacity-[0.02] bg-[repeating-linear-gradient(0deg,transparent,transparent_2px,white_2px,white_4px)]" />
@@ -73,7 +73,7 @@ export default function Hero() {
               className="lg:hidden flex items-start gap-4"
             >
               {/* Mobile 24 Badge - Top Left */}
-              <div className="flex-shrink-0 relative w-24 h-24 bg-linear-to-br from-brand-primary to-brand-secondary rounded-full flex items-center justify-center shadow-xl border-4 border-white/10">
+              <div className="shrink-0 relative w-24 h-24 bg-linear-to-br from-brand-primary to-brand-secondary rounded-full flex items-center justify-center shadow-xl border-4 border-white/10">
                 <div className="absolute inset-1 rounded-full border-2 border-dashed border-white/30 animate-[spin_15s_linear_infinite]" />
                 <div className="flex flex-col items-center relative z-10">
                   <span className="text-white font-black text-4xl italic drop-shadow-lg">
@@ -88,7 +88,7 @@ export default function Hero() {
               {/* Mobile Heading Text */}
               <h1 className="text-white font-black text-[2rem] leading-[1.1] tracking-tighter flex-1">
                 <span className="block italic">24 Hour</span>
-                <span className="block bg-gradient-to-r from-brand-primary via-brand-secondary to-sky-blue bg-clip-text text-transparent italic py-1">
+                <span className="block bg-linear-to-r from-brand-primary via-brand-secondary to-sky-blue bg-clip-text text-transparent italic py-1">
                   Car Recovery
                 </span>
                 <span className="block text-xl not-italic font-bold tracking-tight text-white/95 mt-1">
@@ -105,7 +105,7 @@ export default function Hero() {
               className="hidden lg:block text-white font-black text-6xl md:text-7xl lg:text-8xl xl:text-[100px] leading-[1.1] tracking-tighter"
             >
               <span className="block italic">24 Hour</span>
-              <span className="block bg-gradient-to-r from-brand-primary via-brand-secondary to-sky-blue bg-clip-text text-transparent italic py-1">
+              <span className="block bg-linear-to-r from-brand-primary via-brand-secondary to-sky-blue bg-clip-text text-transparent italic py-1">
                 Car Recovery
               </span>
               <span className="block text-4xl md:text-5xl lg:text-6xl not-italic tracking-tight font-bold text-white/95 mt-1 sm:mt-2">
