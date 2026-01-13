@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-oxford-dark: #0B0E18;
+  --color-white: #FFFFFF;
+  --color-rich-black: #151822;
+  --color-slate-muted: #303850;
+  --color-brand-primary: #316BF9;
+  --color-brand-secondary: #4E80FC;
+  --color-charcoal: #202020;
+  --color-gunmetal: #292C36;
+  --color-sky-blue: #608EFF;
+
+  --background-image-gradient-1: linear-gradient(to right, #316BF9, #6390FF);
+  --background-image-gradient-2: linear-gradient(to right, #6390FF, #316BF9);
+}
