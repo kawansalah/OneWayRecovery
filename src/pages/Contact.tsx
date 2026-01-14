@@ -84,7 +84,7 @@ export default function Contact() {
             transition={{ duration: 0.5, delay: 0.2 }}
             whileHover={{ scale: 1.05, y: -5 }}
             whileTap={{ scale: 0.95 }}
-            href="https://wa.me/447377226647"
+            href="https://wa.me/447377226647?text=Hello%2C%20I%20need%20car%20recovery%20assistance."
             target="_blank"
             rel="noopener noreferrer"
             className="group bg-rich-black/50 border border-slate-muted/20 hover:border-[#25D366] rounded-2xl sm:rounded-3xl p-6 sm:p-8 transition-all duration-300 hover:shadow-lg hover:shadow-[#25D366]/10 active:scale-95"

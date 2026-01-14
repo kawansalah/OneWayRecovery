@@ -92,7 +92,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://wa.me/447123456789"
+            href="https://wa.me/447123456789?text=Hello%2C%20I%20need%20car%20recovery%20assistance."
             target="_blank"
             rel="noopener noreferrer"
             className="group bg-rich-black/50 border border-slate-muted/20 hover:border-[#25D366] rounded-2xl sm:rounded-3xl p-5 sm:p-6 transition-all duration-300 hover:shadow-lg hover:shadow-[#25D366]/10 active:scale-95"
