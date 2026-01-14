@@ -70,7 +70,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="mailto:info@onewayrecovery.co.uk"
+            href="mailto:onewaycarrecovery@gmail.com"
             className="group bg-rich-black/50 border border-slate-muted/20 hover:border-brand-primary rounded-2xl sm:rounded-3xl p-5 sm:p-6 transition-all duration-300 hover:shadow-lg hover:shadow-brand-primary/10 active:scale-95"
           >
             <div className="flex flex-col items-center text-center space-y-2 sm:space-y-3">
@@ -85,7 +85,7 @@ export default function Footer() {
                   Email Us
                 </p>
                 <p className="text-white font-semibold group-hover:text-brand-primary transition-colors text-xs sm:text-sm break-all">
-                  info@onewayrecovery.co.uk
+                  onewaycarrecovery@gmail.com
                 </p>
               </div>
             </div>
