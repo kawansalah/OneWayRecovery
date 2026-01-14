@@ -50,7 +50,7 @@ export default function Footer() {
         {/* Contact Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 md:gap-6 mb-8 sm:mb-10 md:mb-12">
           <a
-            href="tel:+447123456789"
+            href="tel:+447377226647"
             className="group bg-rich-black/50 border border-slate-muted/20 hover:border-brand-primary rounded-2xl sm:rounded-3xl p-5 sm:p-6 transition-all duration-300 hover:shadow-lg hover:shadow-brand-primary/10 active:scale-95"
           >
             <div className="flex flex-col items-center text-center space-y-2 sm:space-y-3">
@@ -63,7 +63,7 @@ export default function Footer() {
               <div>
                 <p className="text-gray-400 text-xs sm:text-sm mb-1">Call Us</p>
                 <p className="text-white text-sm sm:text-base font-semibold group-hover:text-brand-primary transition-colors">
-                  +44 7123 456789
+                  +44 7377 226647
                 </p>
               </div>
             </div>
@@ -92,7 +92,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://wa.me/447123456789?text=Hello%2C%20I%20need%20car%20recovery%20assistance."
+            href="https://wa.me/447377226647?text=Hello%2C%20I%20need%20car%20recovery%20assistance."
             target="_blank"
             rel="noopener noreferrer"
             className="group bg-rich-black/50 border border-slate-muted/20 hover:border-[#25D366] rounded-2xl sm:rounded-3xl p-5 sm:p-6 transition-all duration-300 hover:shadow-lg hover:shadow-[#25D366]/10 active:scale-95"
