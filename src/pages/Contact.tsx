@@ -124,7 +124,7 @@ export default function Contact() {
                   OPEN HOURS
                 </p>
                 <p className="text-white text-base sm:text-lg font-bold">
-                  Mon-Sat: 08:00 - 18:00
+                  24/7 - Always Available
                 </p>
               </div>
             </div>

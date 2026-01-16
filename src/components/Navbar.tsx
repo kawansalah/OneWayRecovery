@@ -94,7 +94,7 @@ export default function Navbar() {
 
             <div className="flex items-center space-x-3">
               <Clock size={13} strokeWidth={3} />
-              <span className="whitespace-nowrap">Mon-Sat: 08:00 - 18:00</span>
+              <span className="whitespace-nowrap">24/7 - Always Available</span>
             </div>
           </div>
         </div>
@@ -200,7 +200,7 @@ export default function Navbar() {
                     HOURS
                   </span>
                   <span className="text-sm font-bold">
-                    Mon-Sat: 08:00 - 18:00
+                    24/7 - Always Available
                   </span>
                 </div>
               </div>
